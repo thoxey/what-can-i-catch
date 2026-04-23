@@ -1,0 +1,19 @@
+# Cloned upstream — icons we need are copied into web/public/icons/
+acnh-images/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Claude local state
+.claude/settings.local.json
+
+# OS
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc

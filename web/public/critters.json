@@ -1,0 +1,8008 @@
+{
+  "fish": [
+    {
+      "name": "Bitterling",
+      "slug": "bitterling",
+      "category": "fish",
+      "price": 900,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/bitterling.png"
+    },
+    {
+      "name": "Pale chub",
+      "slug": "pale-chub",
+      "category": "fish",
+      "price": 200,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/pale-chub.png"
+    },
+    {
+      "name": "Crucian carp",
+      "slug": "crucian-carp",
+      "category": "fish",
+      "price": 160,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/crucian-carp.png"
+    },
+    {
+      "name": "Dace",
+      "slug": "dace",
+      "category": "fish",
+      "price": 240,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/dace.png"
+    },
+    {
+      "name": "Carp",
+      "slug": "carp",
+      "category": "fish",
+      "price": 300,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/carp.png"
+    },
+    {
+      "name": "Koi",
+      "slug": "koi",
+      "category": "fish",
+      "price": 4000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Pond",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/koi.png"
+    },
+    {
+      "name": "Goldfish",
+      "slug": "goldfish",
+      "category": "fish",
+      "price": 1300,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/goldfish.png"
+    },
+    {
+      "name": "Pop-eyed goldfish",
+      "slug": "pop-eyed-goldfish",
+      "category": "fish",
+      "price": 1300,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "Pond",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/pop-eyed-goldfish.png"
+    },
+    {
+      "name": "Ranchu goldfish",
+      "slug": "ranchu-goldfish",
+      "category": "fish",
+      "price": 4500,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "Pond",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/ranchu-goldfish.png"
+    },
+    {
+      "name": "Killifish",
+      "slug": "killifish",
+      "category": "fish",
+      "price": 300,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/killifish.png"
+    },
+    {
+      "name": "Crawfish",
+      "slug": "crawfish",
+      "category": "fish",
+      "price": 200,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/crawfish.png"
+    },
+    {
+      "name": "Soft-shelled turtle",
+      "slug": "soft-shelled-turtle",
+      "category": "fish",
+      "price": 7350,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/soft-shelled-turtle.png"
+    },
+    {
+      "name": "Snapping turtle",
+      "slug": "snapping-turtle",
+      "category": "fish",
+      "price": 5000,
+      "time": "9 p.m. - 4 a.m.",
+      "location": "River",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/snapping-turtle.png"
+    },
+    {
+      "name": "Tadpole",
+      "slug": "tadpole",
+      "category": "fish",
+      "price": 100,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/tadpole.png"
+    },
+    {
+      "name": "Frog",
+      "slug": "frog",
+      "category": "fish",
+      "price": 120,
+      "time": "All day",
+      "location": "Pond",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/frog.png"
+    },
+    {
+      "name": "Freshwater goby",
+      "slug": "freshwater-goby",
+      "category": "fish",
+      "price": 400,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/freshwater-goby.png"
+    },
+    {
+      "name": "Loach",
+      "slug": "loach",
+      "category": "fish",
+      "price": 400,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/fish/loach.png"
+    },
+    {
+      "name": "Catfish",
+      "slug": "catfish",
+      "category": "fish",
+      "price": 800,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Pond",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/catfish.png"
+    },
+    {
+      "name": "Giant snakehead",
+      "slug": "giant-snakehead",
+      "category": "fish",
+      "price": 5500,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "Pond",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/giant-snakehead.png"
+    },
+    {
+      "name": "Bluegill",
+      "slug": "bluegill",
+      "category": "fish",
+      "price": 180,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/bluegill.png"
+    },
+    {
+      "name": "Yellow perch",
+      "slug": "yellow-perch",
+      "category": "fish",
+      "price": 300,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/yellow-perch.png"
+    },
+    {
+      "name": "Black bass",
+      "slug": "black-bass",
+      "category": "fish",
+      "price": 400,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/black-bass.png"
+    },
+    {
+      "name": "Tilapia",
+      "slug": "tilapia",
+      "category": "fish",
+      "price": 800,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/tilapia.png"
+    },
+    {
+      "name": "Pike",
+      "slug": "pike",
+      "category": "fish",
+      "price": 1800,
+      "time": "All day",
+      "location": "River",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/pike.png"
+    },
+    {
+      "name": "Pond smelt",
+      "slug": "pond-smelt",
+      "category": "fish",
+      "price": 500,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/pond-smelt.png"
+    },
+    {
+      "name": "Sweetfish",
+      "slug": "sweetfish",
+      "category": "fish",
+      "price": 900,
+      "time": "All day",
+      "location": "River",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/sweetfish.png"
+    },
+    {
+      "name": "Cherry salmon",
+      "slug": "cherry-salmon",
+      "category": "fish",
+      "price": 1000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/cherry-salmon.png"
+    },
+    {
+      "name": "Char",
+      "slug": "char",
+      "category": "fish",
+      "price": 3800,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River (Clifftop)",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/char.png"
+    },
+    {
+      "name": "Golden trout",
+      "slug": "golden-trout",
+      "category": "fish",
+      "price": 15000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River (Clifftop)",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/fish/golden-trout.png"
+    },
+    {
+      "name": "Stringfish",
+      "slug": "stringfish",
+      "category": "fish",
+      "price": 15000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River (Clifftop)",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/stringfish.png"
+    },
+    {
+      "name": "Salmon",
+      "slug": "salmon",
+      "category": "fish",
+      "price": 700,
+      "time": "All day",
+      "location": "River (mouth)",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/salmon.png"
+    },
+    {
+      "name": "King salmon",
+      "slug": "king-salmon",
+      "category": "fish",
+      "price": 1800,
+      "time": "All day",
+      "location": "River (mouth)",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/king-salmon.png"
+    },
+    {
+      "name": "Mitten crab",
+      "slug": "mitten-crab",
+      "category": "fish",
+      "price": 2000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/mitten-crab.png"
+    },
+    {
+      "name": "Guppy",
+      "slug": "guppy",
+      "category": "fish",
+      "price": 1300,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/guppy.png"
+    },
+    {
+      "name": "Nibble fish",
+      "slug": "nibble-fish",
+      "category": "fish",
+      "price": 1500,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/nibble-fish.png"
+    },
+    {
+      "name": "Angelfish",
+      "slug": "angelfish",
+      "category": "fish",
+      "price": 3000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/angelfish.png"
+    },
+    {
+      "name": "Betta",
+      "slug": "betta",
+      "category": "fish",
+      "price": 2500,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/betta.png"
+    },
+    {
+      "name": "Neon tetra",
+      "slug": "neon-tetra",
+      "category": "fish",
+      "price": 500,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/neon-tetra.png"
+    },
+    {
+      "name": "Rainbowfish",
+      "slug": "rainbowfish",
+      "category": "fish",
+      "price": 800,
+      "time": "9 a.m. - 4 p.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/rainbowfish.png"
+    },
+    {
+      "name": "Piranha",
+      "slug": "piranha",
+      "category": "fish",
+      "price": 2500,
+      "time": "9 a.m. - 4 p.m., 9 p.m. - 4 a.m.",
+      "location": "River",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/piranha.png"
+    },
+    {
+      "name": "Arowana",
+      "slug": "arowana",
+      "category": "fish",
+      "price": 10000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/arowana.png"
+    },
+    {
+      "name": "Dorado",
+      "slug": "dorado",
+      "category": "fish",
+      "price": 15000,
+      "time": "4 a.m - 9 p.m.",
+      "location": "River",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/dorado.png"
+    },
+    {
+      "name": "Gar",
+      "slug": "gar",
+      "category": "fish",
+      "price": 6000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Pond",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/gar.png"
+    },
+    {
+      "name": "Arapaima",
+      "slug": "arapaima",
+      "category": "fish",
+      "price": 10000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "River",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/arapaima.png"
+    },
+    {
+      "name": "Saddled bichir",
+      "slug": "saddled-bichir",
+      "category": "fish",
+      "price": 4000,
+      "time": "9 p.m. - 4 a.m.",
+      "location": "River",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/saddled-bichir.png"
+    },
+    {
+      "name": "Sturgeon",
+      "slug": "sturgeon",
+      "category": "fish",
+      "price": 10000,
+      "time": "All day",
+      "location": "River (mouth)",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/sturgeon.png"
+    },
+    {
+      "name": "Sea butterfly",
+      "slug": "sea-butterfly",
+      "category": "fish",
+      "price": 1000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/sea-butterfly.png"
+    },
+    {
+      "name": "Sea horse",
+      "slug": "sea-horse",
+      "category": "fish",
+      "price": 1100,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/sea-horse.png"
+    },
+    {
+      "name": "Clown fish",
+      "slug": "clown-fish",
+      "category": "fish",
+      "price": 650,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Smallest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/clown-fish.png"
+    },
+    {
+      "name": "Surgeonfish",
+      "slug": "surgeonfish",
+      "category": "fish",
+      "price": 1000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/surgeonfish.png"
+    },
+    {
+      "name": "Butterfly Fish",
+      "slug": "butterfly-fish",
+      "category": "fish",
+      "price": 1000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/butterfly-fish.png"
+    },
+    {
+      "name": "Napoleonfish",
+      "slug": "napoleonfish",
+      "category": "fish",
+      "price": 10000,
+      "time": "4 a.m. - 9 p.m.",
+      "location": "Sea",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/napoleonfish.png"
+    },
+    {
+      "name": "Zebra turkeyfish",
+      "slug": "zebra-turkeyfish",
+      "category": "fish",
+      "price": 500,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/zebra-turkeyfish.png"
+    },
+    {
+      "name": "Blowfish",
+      "slug": "blowfish",
+      "category": "fish",
+      "price": 5000,
+      "time": "9 p.m. - 4 a.m.",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/blowfish.png"
+    },
+    {
+      "name": "Puffer fish",
+      "slug": "puffer-fish",
+      "category": "fish",
+      "price": 250,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/puffer-fish.png"
+    },
+    {
+      "name": "Anchovy",
+      "slug": "anchovy",
+      "category": "fish",
+      "price": 200,
+      "time": "4 a.m. - 9 p.m.",
+      "location": "Sea",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/anchovy.png"
+    },
+    {
+      "name": "Horse mackerel",
+      "slug": "horse-mackerel",
+      "category": "fish",
+      "price": 150,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/horse-mackerel.png"
+    },
+    {
+      "name": "Barred knifejaw",
+      "slug": "barred-knifejaw",
+      "category": "fish",
+      "price": 5000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/barred-knifejaw.png"
+    },
+    {
+      "name": "Sea bass",
+      "slug": "sea-bass",
+      "category": "fish",
+      "price": 400,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/sea-bass.png"
+    },
+    {
+      "name": "Red Snapper",
+      "slug": "red-snapper",
+      "category": "fish",
+      "price": 3000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/red-snapper.png"
+    },
+    {
+      "name": "Dab",
+      "slug": "dab",
+      "category": "fish",
+      "price": 300,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/dab.png"
+    },
+    {
+      "name": "Olive flounder",
+      "slug": "olive-flounder",
+      "category": "fish",
+      "price": 800,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/olive-flounder.png"
+    },
+    {
+      "name": "Squid",
+      "slug": "squid",
+      "category": "fish",
+      "price": 500,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Medium",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/squid.png"
+    },
+    {
+      "name": "Moray eel",
+      "slug": "moray-eel",
+      "category": "fish",
+      "price": 2000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Narrow",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/moray-eel.png"
+    },
+    {
+      "name": "Ribbon eel",
+      "slug": "ribbon-eel",
+      "category": "fish",
+      "price": 600,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Narrow",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/ribbon-eel.png"
+    },
+    {
+      "name": "Tuna",
+      "slug": "tuna",
+      "category": "fish",
+      "price": 7000,
+      "time": "All day",
+      "location": "Pier",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/tuna.png"
+    },
+    {
+      "name": "Blue marlin",
+      "slug": "blue-marlin",
+      "category": "fish",
+      "price": 10000,
+      "time": "All day",
+      "location": "Pier",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/blue-marlin.png"
+    },
+    {
+      "name": "Giant trevally",
+      "slug": "giant-trevally",
+      "category": "fish",
+      "price": 4500,
+      "time": "All day",
+      "location": "Pier",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/giant-trevally.png"
+    },
+    {
+      "name": "Mahi-mahi",
+      "slug": "mahi-mahi",
+      "category": "fish",
+      "price": 6000,
+      "time": "All day",
+      "location": "Pier",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/mahi-mahi.png"
+    },
+    {
+      "name": "Ocean sunfish",
+      "slug": "ocean-sunfish",
+      "category": "fish",
+      "price": 4000,
+      "time": "4 a.m. - 9 p.m.",
+      "location": "Sea",
+      "shadow": "Largest (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/ocean-sunfish.png"
+    },
+    {
+      "name": "Ray",
+      "slug": "ray",
+      "category": "fish",
+      "price": 3000,
+      "time": "4 a.m. - 9 p.m.",
+      "location": "Sea",
+      "shadow": "X Large",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/ray.png"
+    },
+    {
+      "name": "Saw Shark",
+      "slug": "saw-shark",
+      "category": "fish",
+      "price": 12000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Sea",
+      "shadow": "Largest (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/saw-shark.png"
+    },
+    {
+      "name": "Hammerhead shark",
+      "slug": "hammerhead-shark",
+      "category": "fish",
+      "price": 8000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Sea",
+      "shadow": "Largest (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/hammerhead-shark.png"
+    },
+    {
+      "name": "Great white shark",
+      "slug": "great-white-shark",
+      "category": "fish",
+      "price": 15000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Sea",
+      "shadow": "Largest (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/great-white-shark.png"
+    },
+    {
+      "name": "Whale shark",
+      "slug": "whale-shark",
+      "category": "fish",
+      "price": 13000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Largest (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/whale-shark.png"
+    },
+    {
+      "name": "Suckerfish",
+      "slug": "suckerfish",
+      "category": "fish",
+      "price": 1500,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Large (Fin)",
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/fish/suckerfish.png"
+    },
+    {
+      "name": "Football fish",
+      "slug": "football-fish",
+      "category": "fish",
+      "price": 2500,
+      "time": "4 p.m. - 9 a.m.",
+      "location": "Sea",
+      "shadow": "Large",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/fish/football-fish.png"
+    },
+    {
+      "name": "Oarfish",
+      "slug": "oarfish",
+      "category": "fish",
+      "price": 9000,
+      "time": "All day",
+      "location": "Sea",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/fish/oarfish.png"
+    },
+    {
+      "name": "Barreleye",
+      "slug": "barreleye",
+      "category": "fish",
+      "price": 15000,
+      "time": "9 p.m. - 4 a.m.",
+      "location": "Sea",
+      "shadow": "Small",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/barreleye.png"
+    },
+    {
+      "name": "Coelacanth",
+      "slug": "coelacanth",
+      "category": "fish",
+      "price": 15000,
+      "time": "All day",
+      "location": "Sea (rainy days)",
+      "shadow": "Largest",
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/fish/coelacanth.png"
+    }
+  ],
+  "bugs": [
+    {
+      "name": "Common butterfly",
+      "slug": "common-butterfly",
+      "category": "bugs",
+      "price": 160,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/common-butterfly.png"
+    },
+    {
+      "name": "Yellow butterfly",
+      "slug": "yellow-butterfly",
+      "category": "bugs",
+      "price": 160,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/yellow-butterfly.png"
+    },
+    {
+      "name": "Tiger butterfly",
+      "slug": "tiger-butterfly",
+      "category": "bugs",
+      "price": 240,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/tiger-butterfly.png"
+    },
+    {
+      "name": "Peacock butterfly",
+      "slug": "peacock-butterfly",
+      "category": "bugs",
+      "price": 2500,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying by hybrid flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/peacock-butterfly.png"
+    },
+    {
+      "name": "Common bluebottle",
+      "slug": "common-bluebottle",
+      "category": "bugs",
+      "price": 300,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/common-bluebottle.png"
+    },
+    {
+      "name": "Paper kite butterfly",
+      "slug": "paper-kite-butterfly",
+      "category": "bugs",
+      "price": 1000,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/paper-kite-butterfly.png"
+    },
+    {
+      "name": "Great purple emperor",
+      "slug": "great-purple-emperor",
+      "category": "bugs",
+      "price": 3000,
+      "time": "4 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/great-purple-emperor.png"
+    },
+    {
+      "name": "Monarch butterfly",
+      "slug": "monarch-butterfly",
+      "category": "bugs",
+      "price": 140,
+      "time": "4 a.m. - 5 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/monarch-butterfly.png"
+    },
+    {
+      "name": "Emperor butterfly",
+      "slug": "emperor-butterfly",
+      "category": "bugs",
+      "price": 4000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/emperor-butterfly.png"
+    },
+    {
+      "name": "Agrias butterfly",
+      "slug": "agrias-butterfly",
+      "category": "bugs",
+      "price": 3000,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/agrias-butterfly.png"
+    },
+    {
+      "name": "Rajah brooke's birdwing",
+      "slug": "rajah-brooke-s-birdwing",
+      "category": "bugs",
+      "price": 2500,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/rajah-brooke-s-birdwing.png"
+    },
+    {
+      "name": "Queen Alexandra's birdwing",
+      "slug": "queen-alexandra-s-birdwing",
+      "category": "bugs",
+      "price": 4000,
+      "time": "8 a.m. - 4 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/queen-alexandra-s-birdwing.png"
+    },
+    {
+      "name": "Moth",
+      "slug": "moth",
+      "category": "bugs",
+      "price": 130,
+      "time": "7 p.m. - 4 a.m.",
+      "location": "Flying by light",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/moth.png"
+    },
+    {
+      "name": "Atlas moth",
+      "slug": "atlas-moth",
+      "category": "bugs",
+      "price": 3000,
+      "time": "7 p.m. - 4 a.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/atlas-moth.png"
+    },
+    {
+      "name": "Madagascan sunset moth",
+      "slug": "madagascan-sunset-moth",
+      "category": "bugs",
+      "price": 2500,
+      "time": "8 a.m. - 4 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/madagascan-sunset-moth.png"
+    },
+    {
+      "name": "Long locust",
+      "slug": "long-locust",
+      "category": "bugs",
+      "price": 200,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/long-locust.png"
+    },
+    {
+      "name": "Migratory Locust",
+      "slug": "migratory-locust",
+      "category": "bugs",
+      "price": 600,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/migratory-locust.png"
+    },
+    {
+      "name": "Rice grasshopper",
+      "slug": "rice-grasshopper",
+      "category": "bugs",
+      "price": 160,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/rice-grasshopper.png"
+    },
+    {
+      "name": "Grasshopper",
+      "slug": "grasshopper",
+      "category": "bugs",
+      "price": 160,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/grasshopper.png"
+    },
+    {
+      "name": "Cricket",
+      "slug": "cricket",
+      "category": "bugs",
+      "price": 130,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/cricket.png"
+    },
+    {
+      "name": "Bell cricket",
+      "slug": "bell-cricket",
+      "category": "bugs",
+      "price": 430,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/bell-cricket.png"
+    },
+    {
+      "name": "Mantis",
+      "slug": "mantis",
+      "category": "bugs",
+      "price": 430,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/mantis.png"
+    },
+    {
+      "name": "Orchid mantis",
+      "slug": "orchid-mantis",
+      "category": "bugs",
+      "price": 2400,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On white flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/orchid-mantis.png"
+    },
+    {
+      "name": "Honeybee",
+      "slug": "honeybee",
+      "category": "bugs",
+      "price": 200,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "Flying near flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/honeybee.png"
+    },
+    {
+      "name": "Wasp",
+      "slug": "wasp",
+      "category": "bugs",
+      "price": 2500,
+      "time": "All day",
+      "location": "Falls from shaking trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/wasp.png"
+    },
+    {
+      "name": "Brown cicada",
+      "slug": "brown-cicada",
+      "category": "bugs",
+      "price": 250,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/brown-cicada.png"
+    },
+    {
+      "name": "Robust cicada",
+      "slug": "robust-cicada",
+      "category": "bugs",
+      "price": 300,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/robust-cicada.png"
+    },
+    {
+      "name": "Giant cicada",
+      "slug": "giant-cicada",
+      "category": "bugs",
+      "price": 500,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/giant-cicada.png"
+    },
+    {
+      "name": "Walker cicada",
+      "slug": "walker-cicada",
+      "category": "bugs",
+      "price": 400,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/walker-cicada.png"
+    },
+    {
+      "name": "Evening cicada",
+      "slug": "evening-cicada",
+      "category": "bugs",
+      "price": 550,
+      "time": "4 a.m. - 8 a.m., 4 p.m. - 7 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/evening-cicada.png"
+    },
+    {
+      "name": "Cicada shell",
+      "slug": "cicada-shell",
+      "category": "bugs",
+      "price": 10,
+      "time": "All day",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/cicada-shell.png"
+    },
+    {
+      "name": "Red dragonfly",
+      "slug": "red-dragonfly",
+      "category": "bugs",
+      "price": 180,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/red-dragonfly.png"
+    },
+    {
+      "name": "Darner dragonfly",
+      "slug": "darner-dragonfly",
+      "category": "bugs",
+      "price": 230,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/darner-dragonfly.png"
+    },
+    {
+      "name": "Banded dragonfly",
+      "slug": "banded-dragonfly",
+      "category": "bugs",
+      "price": 4500,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/banded-dragonfly.png"
+    },
+    {
+      "name": "Damselfly",
+      "slug": "damselfly",
+      "category": "bugs",
+      "price": 500,
+      "time": "All day",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/damselfly.png"
+    },
+    {
+      "name": "Firefly",
+      "slug": "firefly",
+      "category": "bugs",
+      "price": 300,
+      "time": "7 p.m. - 4 a.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/firefly.png"
+    },
+    {
+      "name": "Mole cricket",
+      "slug": "mole-cricket",
+      "category": "bugs",
+      "price": 500,
+      "time": "All day",
+      "location": "Underground",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/mole-cricket.png"
+    },
+    {
+      "name": "Pondskater",
+      "slug": "pondskater",
+      "category": "bugs",
+      "price": 130,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "Ponds",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/pondskater.png"
+    },
+    {
+      "name": "Diving beetle",
+      "slug": "diving-beetle",
+      "category": "bugs",
+      "price": 800,
+      "time": "8 a.m. - 7 p.m.",
+      "location": "Ponds and rivers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/diving-beetle.png"
+    },
+    {
+      "name": "Giant water bug",
+      "slug": "giant-water-bug",
+      "category": "bugs",
+      "price": 2000,
+      "time": "7 p.m. - 8 a.m.",
+      "location": "Ponds and rivers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/giant-water-bug.png"
+    },
+    {
+      "name": "Stinkbug",
+      "slug": "stinkbug",
+      "category": "bugs",
+      "price": 120,
+      "time": "All day",
+      "location": "On flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/stinkbug.png"
+    },
+    {
+      "name": "Man-faced stink bug",
+      "slug": "man-faced-stink-bug",
+      "category": "bugs",
+      "price": 1000,
+      "time": "7 p.m. - 8 a.m.",
+      "location": "On flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/man-faced-stink-bug.png"
+    },
+    {
+      "name": "Ladybug",
+      "slug": "ladybug",
+      "category": "bugs",
+      "price": 200,
+      "time": "8 a.m. - 5 p.m.",
+      "location": "On flowers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/ladybug.png"
+    },
+    {
+      "name": "Tiger beetle",
+      "slug": "tiger-beetle",
+      "category": "bugs",
+      "price": 1500,
+      "time": "All day",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/tiger-beetle.png"
+    },
+    {
+      "name": "Jewel beetle",
+      "slug": "jewel-beetle",
+      "category": "bugs",
+      "price": 2400,
+      "time": "All day",
+      "location": "On tree stumps",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/jewel-beetle.png"
+    },
+    {
+      "name": "Violin beetle",
+      "slug": "violin-beetle",
+      "category": "bugs",
+      "price": 450,
+      "time": "All day",
+      "location": "On tree stumps",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/violin-beetle.png"
+    },
+    {
+      "name": "Citrus long-horned beetle",
+      "slug": "citrus-long-horned-beetle",
+      "category": "bugs",
+      "price": 350,
+      "time": "All day",
+      "location": "On tree stumps",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/citrus-long-horned-beetle.png"
+    },
+    {
+      "name": "Rosalia batesi beetle",
+      "slug": "rosalia-batesi-beetle",
+      "category": "bugs",
+      "price": 3000,
+      "time": "All day",
+      "location": "On tree stumps",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/rosalia-batesi-beetle.png"
+    },
+    {
+      "name": "Blue weevil beetle",
+      "slug": "blue-weevil-beetle",
+      "category": "bugs",
+      "price": 800,
+      "time": "All day",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/blue-weevil-beetle.png"
+    },
+    {
+      "name": "Dung beetle",
+      "slug": "dung-beetle",
+      "category": "bugs",
+      "price": 3000,
+      "time": "All day",
+      "location": "Pushing snowballs",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/dung-beetle.png"
+    },
+    {
+      "name": "Earth-boring dung beetle",
+      "slug": "earth-boring-dung-beetle",
+      "category": "bugs",
+      "price": 300,
+      "time": "All day",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/earth-boring-dung-beetle.png"
+    },
+    {
+      "name": "Scarab beetle",
+      "slug": "scarab-beetle",
+      "category": "bugs",
+      "price": 10000,
+      "time": "11 p.m. - 8 a.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/scarab-beetle.png"
+    },
+    {
+      "name": "Drone beetle",
+      "slug": "drone-beetle",
+      "category": "bugs",
+      "price": 200,
+      "time": "All day",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/drone-beetle.png"
+    },
+    {
+      "name": "Goliath beetle",
+      "slug": "goliath-beetle",
+      "category": "bugs",
+      "price": 8000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/goliath-beetle.png"
+    },
+    {
+      "name": "Saw stag",
+      "slug": "saw-stag",
+      "category": "bugs",
+      "price": 2000,
+      "time": "All day",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/saw-stag.png"
+    },
+    {
+      "name": "Miyama stag",
+      "slug": "miyama-stag",
+      "category": "bugs",
+      "price": 1000,
+      "time": "All day",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/miyama-stag.png"
+    },
+    {
+      "name": "Giant stag",
+      "slug": "giant-stag",
+      "category": "bugs",
+      "price": 10000,
+      "time": "11 p.m. - 8 a.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/giant-stag.png"
+    },
+    {
+      "name": "Rainbow stag",
+      "slug": "rainbow-stag",
+      "category": "bugs",
+      "price": 6000,
+      "time": "7 p.m. - 8 a.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/rainbow-stag.png"
+    },
+    {
+      "name": "Cyclommatus stag",
+      "slug": "cyclommatus-stag",
+      "category": "bugs",
+      "price": 8000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/cyclommatus-stag.png"
+    },
+    {
+      "name": "Golden stag",
+      "slug": "golden-stag",
+      "category": "bugs",
+      "price": 12000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/golden-stag.png"
+    },
+    {
+      "name": "Giraffe stag",
+      "slug": "giraffe-stag",
+      "category": "bugs",
+      "price": 12000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/giraffe-stag.png"
+    },
+    {
+      "name": "Horned dynastid",
+      "slug": "horned-dynastid",
+      "category": "bugs",
+      "price": 1350,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/horned-dynastid.png"
+    },
+    {
+      "name": "Horned atlas",
+      "slug": "horned-atlas",
+      "category": "bugs",
+      "price": 8000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/horned-atlas.png"
+    },
+    {
+      "name": "Horned elephant",
+      "slug": "horned-elephant",
+      "category": "bugs",
+      "price": 8000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/horned-elephant.png"
+    },
+    {
+      "name": "Horned hercules",
+      "slug": "horned-hercules",
+      "category": "bugs",
+      "price": 12000,
+      "time": "5 p.m. - 8 a.m.",
+      "location": "On trees (Coconut)",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/horned-hercules.png"
+    },
+    {
+      "name": "Walking stick",
+      "slug": "walking-stick",
+      "category": "bugs",
+      "price": 600,
+      "time": "4 a.m. - 8 a.m., 5 p.m. - 7 p.m.",
+      "location": "On trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/walking-stick.png"
+    },
+    {
+      "name": "Walking leaf",
+      "slug": "walking-leaf",
+      "category": "bugs",
+      "price": 600,
+      "time": "All day",
+      "location": "Near trees, disguised as furniture leaf",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/walking-leaf.png"
+    },
+    {
+      "name": "Bagworm",
+      "slug": "bagworm",
+      "category": "bugs",
+      "price": 600,
+      "time": "All day",
+      "location": "Falls from shaking trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/bagworm.png"
+    },
+    {
+      "name": "Ant",
+      "slug": "ant",
+      "category": "bugs",
+      "price": 80,
+      "time": "All day",
+      "location": "On rotten food",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/ant.png"
+    },
+    {
+      "name": "Hermit crab",
+      "slug": "hermit-crab",
+      "category": "bugs",
+      "price": 1000,
+      "time": "7 p.m. - 8 a.m.",
+      "location": "Beach",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/hermit-crab.png"
+    },
+    {
+      "name": "Wharf roach",
+      "slug": "wharf-roach",
+      "category": "bugs",
+      "price": 200,
+      "time": "All day",
+      "location": "On rocks at beach",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/wharf-roach.png"
+    },
+    {
+      "name": "Fly",
+      "slug": "fly",
+      "category": "bugs",
+      "price": 60,
+      "time": "All day",
+      "location": "On trash items",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/fly.png"
+    },
+    {
+      "name": "Mosquito",
+      "slug": "mosquito",
+      "category": "bugs",
+      "price": 130,
+      "time": "5 p.m. - 4 a.m.",
+      "location": "Flying",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/mosquito.png"
+    },
+    {
+      "name": "Flea",
+      "slug": "flea",
+      "category": "bugs",
+      "price": 70,
+      "time": "All day",
+      "location": "On villagers",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/flea.png"
+    },
+    {
+      "name": "Snail",
+      "slug": "snail",
+      "category": "bugs",
+      "price": 250,
+      "time": "All day",
+      "location": "On rocks (raining)",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/snail.png"
+    },
+    {
+      "name": "Pill bug",
+      "slug": "pill-bug",
+      "category": "bugs",
+      "price": 250,
+      "time": "11 p.m. - 4 p.m.",
+      "location": "Hit rocks",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/pill-bug.png"
+    },
+    {
+      "name": "Centipede",
+      "slug": "centipede",
+      "category": "bugs",
+      "price": 300,
+      "time": "4 p.m. - 11 p.m.",
+      "location": "Hit rocks",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/centipede.png"
+    },
+    {
+      "name": "Spider",
+      "slug": "spider",
+      "category": "bugs",
+      "price": 480,
+      "time": "7 p.m. - 8 a.m.",
+      "location": "Falls from shaking trees",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/spider.png"
+    },
+    {
+      "name": "Tarantula",
+      "slug": "tarantula",
+      "category": "bugs",
+      "price": 8000,
+      "time": "7 p.m. - 4 a.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/bugs/tarantula.png"
+    },
+    {
+      "name": "Scorpion",
+      "slug": "scorpion",
+      "category": "bugs",
+      "price": 8000,
+      "time": "7 p.m. - 4 a.m.",
+      "location": "On ground",
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/bugs/scorpion.png"
+    }
+  ],
+  "sea": [
+    {
+      "name": "Seaweed",
+      "slug": "seaweed",
+      "category": "sea",
+      "price": 600,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/seaweed.png"
+    },
+    {
+      "name": "Sea grapes",
+      "slug": "sea-grapes",
+      "category": "sea",
+      "price": 900,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-grapes.png"
+    },
+    {
+      "name": "Sea cucumber",
+      "slug": "sea-cucumber",
+      "category": "sea",
+      "price": 500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/sea-cucumber.png"
+    },
+    {
+      "name": "Sea pig",
+      "slug": "sea-pig",
+      "category": "sea",
+      "price": 10000,
+      "time": "4 p.m. - 9 a .m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/sea-pig.png"
+    },
+    {
+      "name": "Sea star",
+      "slug": "sea-star",
+      "category": "sea",
+      "price": 500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-star.png"
+    },
+    {
+      "name": "Sea urchin",
+      "slug": "sea-urchin",
+      "category": "sea",
+      "price": 1700,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-urchin.png"
+    },
+    {
+      "name": "Slate pencil urchin",
+      "slug": "slate-pencil-urchin",
+      "category": "sea",
+      "price": 2000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/slate-pencil-urchin.png"
+    },
+    {
+      "name": "Sea anemone",
+      "slug": "sea-anemone",
+      "category": "sea",
+      "price": 500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-anemone.png"
+    },
+    {
+      "name": "Moon jellyfish",
+      "slug": "moon-jellyfish",
+      "category": "sea",
+      "price": 600,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/moon-jellyfish.png"
+    },
+    {
+      "name": "Sea slug",
+      "slug": "sea-slug",
+      "category": "sea",
+      "price": 600,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-slug.png"
+    },
+    {
+      "name": "Pearl oyster",
+      "slug": "pearl-oyster",
+      "category": "sea",
+      "price": 2800,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/pearl-oyster.png"
+    },
+    {
+      "name": "Mussel",
+      "slug": "mussel",
+      "category": "sea",
+      "price": 1500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/sea/mussel.png"
+    },
+    {
+      "name": "Oyster",
+      "slug": "oyster",
+      "category": "sea",
+      "price": 1100,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/oyster.png"
+    },
+    {
+      "name": "Scallop",
+      "slug": "scallop",
+      "category": "sea",
+      "price": 1200,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/scallop.png"
+    },
+    {
+      "name": "Whelk",
+      "slug": "whelk",
+      "category": "sea",
+      "price": 1000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/whelk.png"
+    },
+    {
+      "name": "Turban shell",
+      "slug": "turban-shell",
+      "category": "sea",
+      "price": 1000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/sea/turban-shell.png"
+    },
+    {
+      "name": "Abalone",
+      "slug": "abalone",
+      "category": "sea",
+      "price": 2000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/sea/abalone.png"
+    },
+    {
+      "name": "Gigas giant clam",
+      "slug": "gigas-giant-clam",
+      "category": "sea",
+      "price": 15000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/gigas-giant-clam.png"
+    },
+    {
+      "name": "Chambered nautilus",
+      "slug": "chambered-nautilus",
+      "category": "sea",
+      "price": 1800,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/chambered-nautilus.png"
+    },
+    {
+      "name": "Octopus",
+      "slug": "octopus",
+      "category": "sea",
+      "price": 1200,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/octopus.png"
+    },
+    {
+      "name": "Umbrella octopus",
+      "slug": "umbrella-octopus",
+      "category": "sea",
+      "price": 6000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/sea/umbrella-octopus.png"
+    },
+    {
+      "name": "Vampire squid",
+      "slug": "vampire-squid",
+      "category": "sea",
+      "price": 10000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/vampire-squid.png"
+    },
+    {
+      "name": "Firefly squid",
+      "slug": "firefly-squid",
+      "category": "sea",
+      "price": 1400,
+      "time": "9 p.m. - 4 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/firefly-squid.png"
+    },
+    {
+      "name": "Gazami crab",
+      "slug": "gazami-crab",
+      "category": "sea",
+      "price": 2200,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/sea/gazami-crab.png"
+    },
+    {
+      "name": "Dungeness crab",
+      "slug": "dungeness-crab",
+      "category": "sea",
+      "price": 1900,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ]
+      },
+      "icon": "/icons/sea/dungeness-crab.png"
+    },
+    {
+      "name": "Snow crab",
+      "slug": "snow-crab",
+      "category": "sea",
+      "price": 6000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/snow-crab.png"
+    },
+    {
+      "name": "Red king crab",
+      "slug": "red-king-crab",
+      "category": "sea",
+      "price": 8000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/red-king-crab.png"
+    },
+    {
+      "name": "Acorn barnacle",
+      "slug": "acorn-barnacle",
+      "category": "sea",
+      "price": 600,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/acorn-barnacle.png"
+    },
+    {
+      "name": "Spider crab",
+      "slug": "spider-crab",
+      "category": "sea",
+      "price": 12000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/spider-crab.png"
+    },
+    {
+      "name": "Tiger prawn",
+      "slug": "tiger-prawn",
+      "category": "sea",
+      "price": 3000,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "icon": "/icons/sea/tiger-prawn.png"
+    },
+    {
+      "name": "Sweet shrimp",
+      "slug": "sweet-shrimp",
+      "category": "sea",
+      "price": 1400,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/sweet-shrimp.png"
+    },
+    {
+      "name": "Mantis shrimp",
+      "slug": "mantis-shrimp",
+      "category": "sea",
+      "price": 2500,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/mantis-shrimp.png"
+    },
+    {
+      "name": "Spiny Lobster",
+      "slug": "spiny-lobster",
+      "category": "sea",
+      "price": 5000,
+      "time": "9 p.m. - 4 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/spiny-lobster.png"
+    },
+    {
+      "name": "Lobster",
+      "slug": "lobster",
+      "category": "sea",
+      "price": 4500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/lobster.png"
+    },
+    {
+      "name": "Giant isopod",
+      "slug": "giant-isopod",
+      "category": "sea",
+      "price": 12000,
+      "time": "9 a.m. - 4 p.m., 9 p.m. - 4 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/giant-isopod.png"
+    },
+    {
+      "name": "Horseshoe crab",
+      "slug": "horseshoe-crab",
+      "category": "sea",
+      "price": 2500,
+      "time": "9 p.m. - 4 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/horseshoe-crab.png"
+    },
+    {
+      "name": "Sea pineapple",
+      "slug": "sea-pineapple",
+      "category": "sea",
+      "price": 1500,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/sea-pineapple.png"
+    },
+    {
+      "name": "Spotted garden eel",
+      "slug": "spotted-garden-eel",
+      "category": "sea",
+      "price": 1100,
+      "time": "4 a.m. - 9 p.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "south": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "icon": "/icons/sea/spotted-garden-eel.png"
+    },
+    {
+      "name": "Flatworm",
+      "slug": "flatworm",
+      "category": "sea",
+      "price": 700,
+      "time": "4 p.m. - 9 a.m.",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "south": [
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/flatworm.png"
+    },
+    {
+      "name": "Venus' flower basket",
+      "slug": "venus-flower-basket",
+      "category": "sea",
+      "price": 5000,
+      "time": "All day",
+      "location": null,
+      "shadow": null,
+      "months": {
+        "north": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "south": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "icon": "/icons/sea/venus-flower-basket.png"
+    }
+  ]
+}
