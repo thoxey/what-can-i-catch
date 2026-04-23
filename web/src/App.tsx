@@ -24,33 +24,40 @@ function useNow(intervalMs = 60_000) {
 }
 
 function CritterCard({ critter }: { critter: Critter }) {
+  const hasPrice = critter.price != null;
   return (
     <div className="card">
-      {critter.icon ? (
-        <img src={critter.icon} alt={critter.name} className="card-icon" />
-      ) : (
-        <div className="card-icon placeholder" />
-      )}
-      <div className="card-body">
+      <div className="card-top">
+        {critter.icon ? (
+          <img src={critter.icon} alt={critter.name} className="card-icon" />
+        ) : (
+          <div className="card-icon placeholder" />
+        )}
         <div className="card-name">{critter.name}</div>
-        <div className="card-meta">
-          {critter.price != null && <span className="price">{critter.price.toLocaleString()}🔔</span>}
-          <span className="time">{critter.time}</span>
-        </div>
-        {(critter.location || critter.shadow) && (
-          <div className="card-meta secondary">
-            {critter.location && <span>{critter.location}</span>}
-            {critter.shadow && <span>· {critter.shadow}</span>}
-          </div>
+      </div>
+      <div className="card-strip">
+        {hasPrice ? (
+          <>
+            <div className="strip-cell primary">{critter.price!.toLocaleString()} 🔔</div>
+            <div className="strip-cell secondary">{critter.time}</div>
+          </>
+        ) : (
+          <div className="strip-cell only">{critter.time}</div>
         )}
       </div>
+      {(critter.location || critter.shadow) && (
+        <div className="card-footer">
+          {critter.location && <span>{critter.location}</span>}
+          {critter.shadow && <span>· {critter.shadow}</span>}
+        </div>
+      )}
     </div>
   );
 }
 
 function Section({ category, critters }: { category: Category; critters: Critter[] }) {
   return (
-    <section className="section">
+    <section className={`section ${category}`}>
       <h2>
         {CATEGORY_LABEL[category]} <span className="count">{critters.length}</span>
       </h2>

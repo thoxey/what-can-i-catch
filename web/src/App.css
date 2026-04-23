@@ -1,137 +1,230 @@
 :root {
-  --bg: #f4f1e8;
-  --card: #fffdf5;
-  --ink: #3b3a36;
-  --muted: #8a8578;
-  --accent: #3d8b6e;
-  --border: #e4dfce;
+  --sky: #dbecf1;
+  --blue: #2a70c2;
+  --lightblue: #73a6e0;
+  --teal: #0ab9e6;
+  --green: #15ba68;
+  --dark: #43464b;
+  --ink: #2F322A;
+  --white: #ffffff;
+  --shadow-soft: 0 0 6rem rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 0 1rem rgba(0, 0, 0, 0.1);
+  --shadow-chip: 0 0 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 * { box-sizing: border-box; }
 
-body {
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  background: var(--bg);
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--ink);
+  background: var(--sky) url('/textures/sky.png') repeat 0 0;
+  background-size: 1024px 1024px;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  from { background-position: 0 0; }
+  to   { background-position: -1024px 0; }
+}
+
+@keyframes scroll-right {
+  from { background-position: 0 0; }
+  to   { background-position: 1024px 0; }
 }
 
 .app {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 32px 24px 64px;
+  margin: 32px auto;
+  padding: 32px 28px 56px;
+  background: var(--white);
+  border-radius: 25px;
+  box-shadow: var(--shadow-soft);
 }
 
 .header {
   text-align: center;
-  margin-bottom: 40px;
+  padding: 24px 20px 36px;
+  color: var(--dark);
 }
 
 .header h1 {
-  font-size: 2.5rem;
-  margin: 0 0 8px;
-  color: var(--accent);
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 0 0 18px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--blue);
 }
 
 .subtitle {
   margin: 0;
-  color: var(--muted);
-  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: var(--dark);
+  font-weight: 400;
 }
 
+/* Animated-texture "info-box" sections, one per category */
 .section {
-  margin-bottom: 48px;
+  position: relative;
+  border-radius: 20px;
+  padding: 28px 24px 36px;
+  margin-bottom: 28px;
+  overflow: hidden;
+  color: var(--white);
+  box-shadow: var(--shadow-card);
 }
+
+/* Animated white-triangle tile overlay (magpied from Tanuki Forest).
+   The PNG is ~7% alpha so it reads as a subtle moving texture. */
+.section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/textures/triangles.png') repeat;
+  background-size: 512px 512px;
+  animation: scroll-right 60s linear infinite;
+  pointer-events: none;
+}
+
+.section > * { position: relative; z-index: 1; }
+
+.section.fish { background-color: var(--blue); }
+.section.bugs { background-color: var(--green); }
+.section.sea  { background-color: var(--teal); }
 
 .section h2 {
-  font-size: 1.5rem;
-  margin: 0 0 16px;
-  border-bottom: 2px solid var(--border);
-  padding-bottom: 8px;
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 22px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 14px;
 }
 
 .count {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  border-radius: 20px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
 }
 
+/* Cards: white box with two-tone blue strips for name/meta */
 .card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 12px;
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
   display: flex;
-  gap: 12px;
-  align-items: center;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--white);
 }
 
 .card-icon {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
   flex-shrink: 0;
   image-rendering: pixelated;
 }
 
 .card-icon.placeholder {
-  background: var(--border);
+  background: #e5e4e0;
   border-radius: 6px;
 }
 
-.card-body {
-  min-width: 0;
-  flex: 1;
-}
-
 .card-name {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.95rem;
-  margin-bottom: 4px;
+  color: var(--ink);
+  line-height: 1.15;
 }
 
-.card-meta {
-  font-size: 0.8rem;
-  color: var(--muted);
+/* Two-tone strips inspired by Tanuki's .col-data1 / .col-data2 */
+.card-strip {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 8px 8px;
+  gap: 4px;
+}
+
+.strip-cell {
+  flex: 1;
+  color: var(--white);
+  text-align: center;
+  padding: 7px 6px;
+  font-size: 0.78rem;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip-cell.primary   { background: var(--blue);      border-radius: 8px 0 0 8px; }
+.strip-cell.secondary { background: var(--lightblue); border-radius: 0 8px 8px 0; }
+.strip-cell.only      { background: var(--blue);      border-radius: 8px; }
+
+.card-footer {
+  padding: 0 12px 12px;
+  font-size: 0.72rem;
+  color: #7a7a75;
+  letter-spacing: 0.02em;
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-}
-
-.card-meta.secondary {
-  margin-top: 2px;
-  font-size: 0.75rem;
-}
-
-.price {
-  color: var(--accent);
-  font-weight: 600;
+  min-height: 14px;
 }
 
 .empty {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.85);
   font-style: italic;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .loading, .error {
   text-align: center;
-  color: var(--muted);
-  padding: 40px;
+  color: var(--dark);
+  padding: 60px 20px;
 }
 
 .error { color: #c04848; }
+
+@media (max-width: 640px) {
+  .app { margin: 16px 10px; border-radius: 18px; padding: 20px 16px 40px; }
+  .header h1 { font-size: 2rem; letter-spacing: 0.25em; }
+  .section h2 { font-size: 1.3rem; letter-spacing: 0.2em; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+}
