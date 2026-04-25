@@ -116,7 +116,7 @@ function Section({ category, critters }: { category: Category; critters: Critter
   return (
     <section className={`section ${category}`}>
       <h2>
-        {CATEGORY_LABEL[category]} <span className="count">{critters.length}</span>
+        {critters.length} {CATEGORY_LABEL[category]}
       </h2>
       {critters.length === 0 ? (
         <p className="empty">Nothing catchable right now.</p>
@@ -156,7 +156,7 @@ function GroupedSection({
   return (
     <section className={`section ${category}`}>
       <h2>
-        {CATEGORY_LABEL[category]} <span className="count">{critters.length}</span>
+        {critters.length} {CATEGORY_LABEL[category]}
       </h2>
       {critters.length === 0 ? (
         <p className="empty">Nothing catchable right now.</p>

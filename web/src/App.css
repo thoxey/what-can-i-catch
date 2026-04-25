@@ -98,7 +98,7 @@ body {
   padding: 28px 24px 36px;
   margin-bottom: 28px;
   overflow: hidden;
-  color: var(--white);
+  color: var(--section-text);
   box-shadow: var(--shadow-card);
 }
 
@@ -116,9 +116,21 @@ body {
 
 .section > * { position: relative; z-index: 1; }
 
-.section.fish { background-color: var(--fish-1); }
-.section.bugs { background-color: var(--bug-1); }
-.section.sea  { background-color: var(--sea-1); }
+.section.fish {
+  background-color: var(--fish-3);
+  --section-text: var(--fish-1);
+  --section-divider: var(--fish-2);
+}
+.section.bugs {
+  background-color: var(--bug-1);
+  --section-text: var(--bug-2);
+  --section-divider: var(--bug-3);
+}
+.section.sea {
+  background-color: var(--sea-3);
+  --section-text: var(--sea-1);
+  --section-divider: var(--sea-2);
+}
 
 .section h2 {
   font-size: 2rem;
@@ -131,15 +143,6 @@ body {
   gap: 14px;
 }
 
-.count {
-  font-size: 1rem;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.75);
-  background: rgba(0, 0, 0, 0.15);
-  padding: 3px 10px;
-  border-radius: 20px;
-}
 
 .grid {
   display: grid;
@@ -156,8 +159,8 @@ body {
   text-transform: uppercase;
   margin: 0 0 12px;
   padding-bottom: 6px;
-  color: rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--section-text);
+  border-bottom: 1px solid var(--section-divider);
 }
 
 /* Cards: square cream parchment, icon + size at top, name/price/location stacked */
@@ -290,7 +293,8 @@ body {
 }
 
 .empty {
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--section-text);
+  opacity: 0.85;
   font-style: italic;
   text-align: center;
   padding: 20px 0;

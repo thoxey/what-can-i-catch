@@ -37,9 +37,12 @@ It parses the spreadsheet and copies the matching icons into
   only the subset of icons this app uses is committed under `web/public/icons/`.
 - **Visual design** (scrolling cloud background, scrolling white-triangle
   overlay, white rounded main panel, letter-spaced headings, per-section
-  colored "info-boxes", two-tone blue card strips, color palette) is heavily
-  inspired by [Tanuki Forest](https://www.tanukiforest.com/). The `sky.png`
-  (clouds) and `triangles.png` textures under `web/public/textures/` come
-  from their site.
+  colored "info-boxes") is heavily inspired by
+  [Tanuki Forest](https://www.tanukiforest.com/). The `sky.png` (clouds)
+  and `triangles.png` textures under `web/public/textures/` come from
+  their site.
+- **Color palette** (per-category primary/secondary/tertiary, card cream,
+  highlight yellows) comes from
+  [Ashaife's ACNH palette](https://x.com/Ashaife/status/1239011834851622913).
 
 All game assets belong to Nintendo.
