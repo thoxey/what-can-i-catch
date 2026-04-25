@@ -9,10 +9,53 @@ const CATEGORY_LABEL: Record<Category, string> = {
   sea: 'Sea Creatures',
 };
 
+const FISH_GROUP_ORDER = ['River', 'Pond', 'Sea'];
+
+function fishGroup(location: string | null): string {
+  if (!location) return 'Other';
+  if (location.startsWith('River')) return 'River';
+  if (location.startsWith('Pond')) return 'Pond';
+  if (location.startsWith('Sea') || location === 'Pier') return 'Sea';
+  return 'Other';
+}
+
 const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December',
 ];
+
+const SHADOW_SIZES: Record<string, { label: string; ratio: number }> = {
+  'Narrow':         { label: 'N',   ratio: 0.30 },
+  'Smallest':       { label: 'XS',  ratio: 0.35 },
+  'Small':          { label: 'S',   ratio: 0.50 },
+  'Medium':         { label: 'M',   ratio: 0.65 },
+  'Large':          { label: 'L',   ratio: 0.78 },
+  'Large (Fin)':    { label: 'L',   ratio: 0.78 },
+  'X Large':        { label: 'XL',  ratio: 0.88 },
+  'Largest':        { label: 'XXL', ratio: 1.00 },
+  'Largest (Fin)':  { label: 'XXL', ratio: 1.00 },
+};
+
+const FISH_SILHOUETTE_PATH =
+  'M 340 640 C 410 510, 432 250, 398 130 C 370 75, 310 75, 282 130 C 248 250, 270 510, 340 640 Z';
+
+function ShadowIcon({ shadow }: { shadow: string }) {
+  const def = SHADOW_SIZES[shadow];
+  if (!def) return null;
+  const scale = def.ratio;
+  return (
+    <svg
+      className="shadow-icon"
+      viewBox="270 75 162 565"
+      preserveAspectRatio="xMidYMid meet"
+      aria-label={shadow}
+    >
+      <g transform={`translate(351 357.5) scale(${scale}) translate(-351 -357.5)`}>
+        <path d={FISH_SILHOUETTE_PATH} fill="#786951" />
+      </g>
+    </svg>
+  );
+}
 
 function useNow(intervalMs = 60_000) {
   const [now, setNow] = useState(() => new Date());
@@ -27,28 +70,32 @@ function CritterCard({ critter }: { critter: Critter }) {
   const hasPrice = critter.price != null;
   return (
     <div className="card">
-      <div className="card-top">
-        {critter.icon ? (
-          <img src={critter.icon} alt={critter.name} className="card-icon" />
-        ) : (
-          <div className="card-icon placeholder" />
-        )}
-        <div className="card-name">{critter.name}</div>
-      </div>
-      <div className="card-strip">
-        {hasPrice ? (
-          <>
-            <div className="strip-cell primary">{critter.price!.toLocaleString()} 🔔</div>
-            <div className="strip-cell secondary">{critter.time}</div>
-          </>
-        ) : (
-          <div className="strip-cell only">{critter.time}</div>
+      <div className="card-header">
+        <div className="critter-frame">
+          {critter.icon ? (
+            <img src={critter.icon} alt={critter.name} className="card-icon" />
+          ) : (
+            <div className="card-icon placeholder" />
+          )}
+        </div>
+        {critter.shadow && (
+          <div className="size-frame">
+            <ShadowIcon shadow={critter.shadow} />
+          </div>
         )}
       </div>
-      {(critter.location || critter.shadow) && (
+      <div className="card-name">{critter.name}</div>
+      {hasPrice && (
+        <div className="card-strip">
+          <div className="strip-cell only">
+            <img src="/bell.png" alt="bells" className="bell-icon" />
+            <span>{critter.price!.toLocaleString()}</span>
+          </div>
+        </div>
+      )}
+      {critter.location && (
         <div className="card-footer">
-          {critter.location && <span>{critter.location}</span>}
-          {critter.shadow && <span>· {critter.shadow}</span>}
+          <span className="footer-loc">{critter.location}</span>
         </div>
       )}
     </div>
@@ -69,6 +116,41 @@ function Section({ category, critters }: { category: Category; critters: Critter
             <CritterCard key={c.slug} critter={c} />
           ))}
         </div>
+      )}
+    </section>
+  );
+}
+
+function FishSection({ critters }: { critters: Critter[] }) {
+  const groups = new Map<string, Critter[]>();
+  for (const c of critters) {
+    const g = fishGroup(c.location);
+    if (!groups.has(g)) groups.set(g, []);
+    groups.get(g)!.push(c);
+  }
+  const orderedGroups = [
+    ...FISH_GROUP_ORDER.filter((l) => groups.has(l)),
+    ...[...groups.keys()].filter((l) => !FISH_GROUP_ORDER.includes(l)),
+  ];
+
+  return (
+    <section className="section fish">
+      <h2>
+        {CATEGORY_LABEL.fish} <span className="count">{critters.length}</span>
+      </h2>
+      {critters.length === 0 ? (
+        <p className="empty">Nothing catchable right now.</p>
+      ) : (
+        orderedGroups.map((g) => (
+          <div key={g} className="loc-group">
+            <h3 className="loc-heading">{g}</h3>
+            <div className="grid">
+              {groups.get(g)!.map((c) => (
+                <CritterCard key={c.slug} critter={c} />
+              ))}
+            </div>
+          </div>
+        ))
       )}
     </section>
   );
@@ -117,7 +199,7 @@ export default function App() {
 
       {filtered && (
         <>
-          <Section category="fish" critters={filtered.fish} />
+          <FishSection critters={filtered.fish} />
           <Section category="bugs" critters={filtered.bugs} />
           <Section category="sea" critters={filtered.sea} />
         </>
