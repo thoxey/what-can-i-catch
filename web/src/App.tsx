@@ -19,6 +19,16 @@ function fishGroup(location: string | null): string {
   return 'Other';
 }
 
+const BUGS_GROUP_ORDER = ['Flying', 'Trees', 'Rocks', 'Other'];
+
+function bugsGroup(location: string | null): string {
+  if (!location) return 'Other';
+  if (location.startsWith('Flying')) return 'Flying';
+  if (location.includes('tree') || location.includes('Trees') || location.includes('leaf')) return 'Trees';
+  if (location.includes('rocks')) return 'Rocks';
+  return 'Other';
+}
+
 const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December',
@@ -121,22 +131,32 @@ function Section({ category, critters }: { category: Category; critters: Critter
   );
 }
 
-function FishSection({ critters }: { critters: Critter[] }) {
+function GroupedSection({
+  category,
+  critters,
+  groupFn,
+  groupOrder,
+}: {
+  category: Category;
+  critters: Critter[];
+  groupFn: (loc: string | null) => string;
+  groupOrder: string[];
+}) {
   const groups = new Map<string, Critter[]>();
   for (const c of critters) {
-    const g = fishGroup(c.location);
+    const g = groupFn(c.location);
     if (!groups.has(g)) groups.set(g, []);
     groups.get(g)!.push(c);
   }
   const orderedGroups = [
-    ...FISH_GROUP_ORDER.filter((l) => groups.has(l)),
-    ...[...groups.keys()].filter((l) => !FISH_GROUP_ORDER.includes(l)),
+    ...groupOrder.filter((l) => groups.has(l)),
+    ...[...groups.keys()].filter((l) => !groupOrder.includes(l)),
   ];
 
   return (
-    <section className="section fish">
+    <section className={`section ${category}`}>
       <h2>
-        {CATEGORY_LABEL.fish} <span className="count">{critters.length}</span>
+        {CATEGORY_LABEL[category]} <span className="count">{critters.length}</span>
       </h2>
       {critters.length === 0 ? (
         <p className="empty">Nothing catchable right now.</p>
@@ -199,8 +219,18 @@ export default function App() {
 
       {filtered && (
         <>
-          <FishSection critters={filtered.fish} />
-          <Section category="bugs" critters={filtered.bugs} />
+          <GroupedSection
+            category="fish"
+            critters={filtered.fish}
+            groupFn={fishGroup}
+            groupOrder={FISH_GROUP_ORDER}
+          />
+          <GroupedSection
+            category="bugs"
+            critters={filtered.bugs}
+            groupFn={bugsGroup}
+            groupOrder={BUGS_GROUP_ORDER}
+          />
           <Section category="sea" critters={filtered.sea} />
         </>
       )}
